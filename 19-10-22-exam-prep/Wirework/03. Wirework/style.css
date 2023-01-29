@@ -1,15 +1,15 @@
 
 
 :root {
-    --clr-primary: ;
-    --clr-grey: ;
-    --clr-grey-dark: ;
-    --clr-grey-text: ;
-    --clr-grey-bg: ;
-    --clr-green: ;
-    --clr-green-dark: ;
-    --clr-green-text: ;
-    --clr-green-link: ;
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #6c6c6c;
+    --clr-grey-bg: #383838;
+    --clr-green: #1b9772;
+    --clr-green-text: #3ea483;
+    --clr-green-link: #8ec2aa;
+    --clr-white: #fff;
 }
 
 body {
