@@ -14,9 +14,43 @@
 
 body {
     font-family: Helvetica, sans-serif;
+    color: var(--clr-grey-dark);
 }
 
 /* Navigation */
 
+.header {
+    position: sticky;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .logo .main {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 1;
+}
+
+.header .logo .sub {
+    font-size: 21px;
+    line-height: 1;
+}
+
+.header .logo .divider {
+    width: 1px;
+    height: 50px;
+    background-color: var(--clr-grey-dark);
+    display: inline-block;
+}
 
 /* Hero */
