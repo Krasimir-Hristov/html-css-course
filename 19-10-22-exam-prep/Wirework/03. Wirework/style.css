@@ -24,7 +24,6 @@ body {
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0.5rem 2rem;
 }
 
@@ -51,6 +50,34 @@ body {
     height: 50px;
     background-color: var(--clr-grey-dark);
     display: inline-block;
+}
+
+.header .nav {
+    display: flex;
+    gap: 2px;
+    list-style: none;
+}
+
+.header .nav .nav-item {
+    padding: 1rem 2rem;
+    background-color: var(--clr-grey);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .nav .nav-item.active {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}
+
+.header .nav .nav-item .nav-link {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1.1px;
+    line-height: 0.9;
 }
 
 /* Hero */
