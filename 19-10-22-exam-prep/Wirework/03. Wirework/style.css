@@ -118,7 +118,7 @@ ul {
 
 /* Sections */
 
-section.section--full {
+.section--full {
   padding: 6rem 4rem;
 }
 
@@ -207,4 +207,34 @@ section.section--full {
     padding: 1rem 3.5rem;
     font-size: 22px;
     letter-spacing: 2px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: var(--clr-green);
+    /* color: var(--clr-green-text); */
+}
+
+#footer .resources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer .resources .resource {
+    padding: 0 1rem;
+}
+
+#footer .resources .divider {
+    height: 27px;
+    width: 2px;
+    background-color: var(--clr-green-link);
+}
+
+#footer a {
+    color: var(--clr-green-link);
+    text-decoration: none;
+    font-size: 18px;
 }
