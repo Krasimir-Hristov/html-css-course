@@ -170,3 +170,21 @@ section.section--full {
     font-size: 20px;
 }
 
+/* Advantages */
+
+#advantages {
+    background-color: var(--clr-grey-bg);
+    color: var(--clr-white);
+}
+
+#advantages .section-grid-item .desc {
+    color: var(--clr-green-text);
+    font-size: 20px;
+}
+
+#advantages .section-grid-item .title {
+    margin-bottom: 2rem;
+ 
+}
+
+
