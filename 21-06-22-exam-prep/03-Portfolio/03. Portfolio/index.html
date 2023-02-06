@@ -1,13 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/dcd69f0c2e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+  <header id="header">
+    <button class="btn--menu">
+      <span class="btn__text">Menu</span>
+      <i class="fa-solid fa-bars btn__icon"></i>
+    </button>
+  </header>
+
+  <section id="hero" class="section">
+    <div class="info">
+      <h1 class="default-title">
+        <span class="accent">Apollo</span> Jade Template
+      </h1>
+
+      <p class="info__desc default-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt
+        eius laudantium consectetur. Voluptate velit autem sint quos minima
+        maiores, eligendi nobis eos quis libero eaque rem illo dolorem dolor!
+      </p>
+
+      <div class="divider divider--vertical"></div>
+    </div>
+
+    <img src="images/hero.png" alt="" class="hero-img" />
+  </section>
+
+  <section id="purpose" class="section">
+    <img src="images/camera.png" alt="" class="purpose-img section-item--narrow" />
+
+    <div class="info section-item--wide">
+      <div class="title-wrapper">
+        <div class="divider divider--horizontal"></div>
+        <h2 class="default-title">
+          My name is <span class="accent">Apollo</span>
+        </h2>
+      </div>
+
+      <p class="default-desc">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+        omnis iste natus error sit voluptatem accusantium doloremque
+        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+        nesciunt.
+      </p>
+
+      <p class="default-desc">
+        Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+        numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+        quaerat voluptatem.
+      </p>
+
+      <ul class="socials">
+        <li class="socials">
+          <a href="" class="social__link">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="socials">
+          <a href="" class="social__link">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </li>
+        <li class="socials">
+          <a href="" class="social__link">
+            <i class="fa-brands fa-square-twitter"></i>
+          </a>
+        </li>
+        <li class="socials">
+          <a href="" class="social__link">
+            <i class="fa-solid fa-at"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="poster" class="section">
+    <img src="images/thumb-1.jpeg" alt="" class="bg-img" />
+  </section>
+
+  <section id="featured" class="section">
+    <div class="info">
+      <h1 class="default-title">
+        <span class="accent">Ut enim</span> ad minim
+      </h1>
+
+      <p class="info__desc default-desc">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+      </p>
+
+      <div class="divider divider--vertical"></div>
+    </div>
+
+    <img src="images/featured.jpeg" alt="" class="featured-img" />
+  </section>
+
+  <section id="gallery" class="section">
+    <img src="images/thumb-3.jpeg" alt="" />
+    <img src="images/thumb-4.jpeg" alt="" />
+    <img src="images/thumb-122.jpeg" alt="" />
+  </section>
+
+  <section id="contacts" class="section">
+    <div class="gallery-content">
+      <h2 class="default-title"><span class="accent">Say</span> Hello</h2>
+
+      <p class="default-desc">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia
+        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      </p>
+
+      <form action="" class="form">
+
+        <input type="email" class="email base" placeholder="Your Email">
+        <input type="text" class="subject base" placeholder="Subject:">
+
+        <textarea cols="30" rows="5" class="msg base" placeholder="Message"></textarea>
+
+        <button type="submit" class="btn base">Send message</button>
+      </form>
+    </div>
+  </section>
 </body>
+
 </html>
