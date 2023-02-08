@@ -1,0 +1,108 @@
+:root {
+  --clr--linkedIn-blue: #0a66c2;
+  --clr--title-blue: #3981cc;
+  --clr--text-orange: #bd5e42;
+  --clr--text-light-gray: #a8b2c4;
+  --clr--tags-dark-grey: #e6e5e4;
+  --clr-tag-text: #5c5c5b;
+  --clr--background-dark-pink: #f1ece5;
+  --clr--background-light-pink: #faf9f7;
+
+  --section-padding: 48px 120px;
+  --section-padding-x: 120px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  padding: 14px;
+  position: relative;
+}
+
+.hero .content {
+  width: 60%;
+}
+
+.hero .hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 39%;
+}
+
+.hero .content .title {
+  color: var(--clr--title-blue);
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1.5;
+  margin-bottom: 21px;
+}
+
+.hero .content form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 100px;
+}
+
+.hero .content form input {
+  padding: 6px 10px;
+  margin-bottom: 12px;
+}
+
+.hero .content form a {
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.btn.btn--primary {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 6px;
+  border-radius: 20px;
+  border: 1px transparent;
+  background-color: var(--clr--linkedIn-blue);
+}
+
+/* SECTION JOBS */
+
+.jobs {
+  background-color: var(--clr--background-light-pink);
+  padding: 160px var(--section-padding-x);
+  display: flex;
+}
+
+.jobs .sub-title {
+  font-size: 46px;
+  font-weight: bold;
+  color: #000;
+  width: 500px;
+  margin-right: 100px;
+}
+
+.jobs .options h3 {
+  color: var(--clr-tag-text);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-weight: bold;
+  font-size: 21px;
+  padding: 20px 72px;
+  border-radius: 20px;
+  background-color: var(--clr--tags-dark-grey);
+  color: var(--clr-tag-text);
+}
+
+.jobs .options .tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
