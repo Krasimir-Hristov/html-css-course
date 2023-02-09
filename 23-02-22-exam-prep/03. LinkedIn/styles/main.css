@@ -26,10 +26,7 @@ html {
 }
 
 .hero .hero-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 39%;
+
 }
 
 .hero .content .title {
@@ -106,3 +103,155 @@ html {
     gap: 12px;
     flex-wrap: wrap;
 }
+
+.post {
+  background-color: var(--clr--background-dark-pink);
+  color: var(--clr--text-orange);
+  font-weight: bold;
+  padding: 140px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.post h3 {
+  font-size: 56px;
+  width: 40%;
+}
+
+.btn-post {
+  font-size: 42px;
+  padding: 20px 72px;
+}
+
+.btn-post button {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 62px;
+  border-color: var(--clr-tag-text);
+  width: 100%;
+  padding: 27px 39px;
+  color: var(--clr-tag-text);
+  
+}
+
+/*  COMMERCIAL*/
+
+.commercial {
+  padding: 160px;
+  background-color: var(--clr--background-light-pink);
+  display: flex;
+  gap: 5rem;
+}
+
+.commercial .text {
+  margin-top: 70px;
+}
+
+.commercial .text .sub-titel {
+  font-size:  43px;
+  color: var(--clr--title-blue);
+  margin-bottom: 12px;
+}
+
+
+.commercial .text .sub-text {
+  font-size:  43px;
+  font-weight: bold;
+}
+
+.open-img {
+  width: 50%;
+  height: 50%;
+  margin-top: 50px;
+}
+
+/* CONNECT */
+
+.connect {
+  padding: 160px;
+}
+
+.images {
+  display: flex;
+  gap: 25rem ;
+}
+
+.images img {
+  width: 30%;
+  height: 30%;
+}
+
+.connect .texts {
+  display: flex;
+  gap: 159px;
+}
+
+.connect .texts p {
+  font-size: 62px;
+  font-weight: bold;
+  color: black;
+  width: 45%;
+  margin-top: 84px;
+}
+
+.find-btn {
+  cursor: pointer;
+  margin-top: 71px;
+  padding: 27px 39px;
+  border: 1px solid var(--clr--text-light-gray);
+  border-radius: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--clr-tag-text);
+  width: 27%;
+  background-color: transparent;
+}
+
+
+.colleagues {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.colleagues .sub-title {
+  position: absolute;
+  color: var(--clr--title-blue);
+  font-size: 40px;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 416px;;
+  width: 56%;
+}
+
+.colleagues .get-started {
+  position: absolute;
+  top: 200px;
+  margin-left: 416px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid var(--clr--linkedIn-blue);
+  border-radius: 46px;
+  background-color: var(--clr--linkedIn-blue);
+  padding: 25px 26px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: var(--clr--background-light-pink);
+}
+
+.footer .logo {
+  width: 5%;
+}
+
