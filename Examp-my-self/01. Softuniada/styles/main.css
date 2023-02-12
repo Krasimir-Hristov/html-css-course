@@ -1,0 +1,49 @@
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
+#header .calendar-icon {
+    display: flex;
+    padding: 1rem 2rem;
+    gap: 18px;
+    font-size: 25px;
+    line-height: 1.2;
+    background-color: orange;
+    color: white;
+}
+
+#header .calendar-icon .date {
+    color: white;
+}
+
+#main .section {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#main .divider {
+    height: 1px;
+    background-color: lightgray;
+}
+
+#main .title {
+    margin-bottom: 2rem;
+}
+
+
+#main .desc {
+    margin-bottom: 4rem;
+}
+

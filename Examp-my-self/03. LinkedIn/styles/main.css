@@ -1,0 +1,257 @@
+:root {
+  --clr--linkedIn-blue: #0a66c2;
+  --clr--title-blue: #3981cc;
+  --clr--text-orange: #bd5e42;
+  --clr--text-light-gray: #a8b2c4;
+  --clr--tags-dark-grey: #e6e5e4;
+  --clr-tag-text: #5c5c5b;
+  --clr--background-dark-pink: #f1ece5;
+  --clr--background-light-pink: #faf9f7;
+
+  --section-padding: 48px 120px;
+  --section-padding-x: 120px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  padding: 14px;
+  position: relative;
+}
+
+.hero .content {
+  width: 60%;
+}
+
+.hero .hero-img {
+
+}
+
+.hero .content .title {
+  color: var(--clr--title-blue);
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1.5;
+  margin-bottom: 21px;
+}
+
+.hero .content form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 100px;
+}
+
+.hero .content form input {
+  padding: 6px 10px;
+  margin-bottom: 12px;
+}
+
+.hero .content form a {
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.btn.btn--primary {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 6px;
+  border-radius: 20px;
+  border: 1px transparent;
+  background-color: var(--clr--linkedIn-blue);
+}
+
+/* SECTION JOBS */
+
+.jobs {
+  background-color: var(--clr--background-light-pink);
+  padding: 160px var(--section-padding-x);
+  display: flex;
+}
+
+.jobs .sub-title {
+  font-size: 46px;
+  font-weight: bold;
+  color: #000;
+  width: 500px;
+  margin-right: 100px;
+}
+
+.jobs .options h3 {
+  color: var(--clr-tag-text);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-weight: bold;
+  font-size: 21px;
+  padding: 20px 72px;
+  border-radius: 20px;
+  background-color: var(--clr--tags-dark-grey);
+  color: var(--clr-tag-text);
+}
+
+.jobs .options .tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.post {
+  background-color: var(--clr--background-dark-pink);
+  color: var(--clr--text-orange);
+  font-weight: bold;
+  padding: 140px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.post h3 {
+  font-size: 56px;
+  width: 40%;
+}
+
+.btn-post {
+  font-size: 42px;
+  padding: 20px 72px;
+}
+
+.btn-post button {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 62px;
+  border-color: var(--clr-tag-text);
+  width: 100%;
+  padding: 27px 39px;
+  color: var(--clr-tag-text);
+  
+}
+
+/*  COMMERCIAL*/
+
+.commercial {
+  padding: 160px;
+  background-color: var(--clr--background-light-pink);
+  display: flex;
+  gap: 5rem;
+}
+
+.commercial .text {
+  margin-top: 70px;
+}
+
+.commercial .text .sub-titel {
+  font-size:  43px;
+  color: var(--clr--title-blue);
+  margin-bottom: 12px;
+}
+
+
+.commercial .text .sub-text {
+  font-size:  43px;
+  font-weight: bold;
+}
+
+.open-img {
+  width: 50%;
+  height: 50%;
+  margin-top: 50px;
+}
+
+/* CONNECT */
+
+.connect {
+  padding: 160px;
+}
+
+.images {
+  display: flex;
+  gap: 25rem ;
+}
+
+.images img {
+  width: 30%;
+  height: 30%;
+}
+
+.connect .texts {
+  display: flex;
+  gap: 159px;
+}
+
+.connect .texts p {
+  font-size: 62px;
+  font-weight: bold;
+  color: black;
+  width: 45%;
+  margin-top: 84px;
+}
+
+.find-btn {
+  cursor: pointer;
+  margin-top: 71px;
+  padding: 27px 39px;
+  border: 1px solid var(--clr--text-light-gray);
+  border-radius: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--clr-tag-text);
+  width: 27%;
+  background-color: transparent;
+}
+
+
+.colleagues {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.colleagues .sub-title {
+  position: absolute;
+  color: var(--clr--title-blue);
+  font-size: 40px;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 416px;;
+  width: 56%;
+}
+
+.colleagues .get-started {
+  position: absolute;
+  top: 200px;
+  margin-left: 416px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid var(--clr--linkedIn-blue);
+  border-radius: 46px;
+  background-color: var(--clr--linkedIn-blue);
+  padding: 25px 26px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: var(--clr--background-light-pink);
+}
+
+.footer .logo {
+  width: 5%;
+}
+
