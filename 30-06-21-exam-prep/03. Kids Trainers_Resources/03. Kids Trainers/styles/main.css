@@ -1,0 +1,63 @@
+:root {
+  --clr--green-nav-and-border: #41bead;
+  --clr--SoftUni-Orange: #ffb402;
+  --clr--dark--Orange: #ff9100;
+  --clr--skyblue: #66b9f8;
+  --clr--footer--light--Gray: #919191;
+  --clr--footer--Dark--Gray: #565656;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: lightblue;
+}
+
+#header {
+  background-color: var(--clr--green-nav-and-border);
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+.navigation .links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.navigation .links .link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#hero {
+  background-color: var(--clr--SoftUni-Orange);
+  padding: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-container .titel {
+  font-size: 46px;
+  color: white;
+}
+
+.hero-container .desc {
+  font-size: 20px;
+  color: white;
+  padding: 0 380px;
+}
+
