@@ -1,0 +1,20 @@
+:root {
+  --clr--green-nav-and-border: #41bead;
+  --clr--SoftUni-Orange: #ffb402;
+  --clr--dark--Orange: #ff9100;
+  --clr--skyblue: #66b9f8;
+  --clr--footer--light--Gray: #919191;
+  --clr--footer--Dark--Gray: #565656;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+

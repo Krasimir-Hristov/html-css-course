@@ -26,7 +26,10 @@ html {
 }
 
 .hero .hero-img {
-
+position: absolute;
+top: 0;
+right: 0;
+width: 39%;
 }
 
 .hero .content .title {
